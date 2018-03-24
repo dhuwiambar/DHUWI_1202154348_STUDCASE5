@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.dhuwi_1202154348_studycase5">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TODO APP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeTodo"
+            android:label="Todo List">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".adding"
+            android:label="Add Todo" />
+        <activity
+            android:name=".SettingTodo"
+            android:label="Settings"
+            android:parentActivityName=".HomeTodo" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeTodo" />
+
+        <activity android:name=".databasenya" />
+        <activity android:name=".todoadapter"></activity>
+    </application>
+
+</manifest>
