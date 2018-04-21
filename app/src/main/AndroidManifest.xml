@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".adding"
+            android:name=".AddingTodo"
             android:label="Add Todo" />
         <activity
             android:name=".SettingTodo"
@@ -30,8 +30,7 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".HomeTodo" />
 
-        <activity android:name=".databasenya" />
-        <activity android:name=".todoadapter"></activity>
+
     </application>
 
 </manifest>

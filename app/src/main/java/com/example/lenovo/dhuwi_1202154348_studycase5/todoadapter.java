@@ -41,7 +41,7 @@ import java.util.List;
             holder.name.setText(satuan.getName());
             holder.description.setText(satuan.getDescription());
             holder.priority.setText(satuan.getPriority());
-            holder.cd.setCardBackgroundColor(con.getResources().getColor(this.id));
+//            holder.cd.setCardBackgroundColor(con.getResources().getColor(this.id));
         }
 
         //Method untuk mendapatkan itemtodo dari adapter

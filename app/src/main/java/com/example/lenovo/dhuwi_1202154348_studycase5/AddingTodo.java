@@ -22,12 +22,14 @@ public class AddingTodo extends AppCompatActivity {
         db = new databasenya(this);
     }
 
+
     //Method ketika tombol back ditekan
     @Override
     public void onBackPressed() {
         startActivity(new Intent(AddingTodo.this, HomeTodo.class));
         this.finish();
     }
+
 
     //Method ketika tombol tambah ditekan
     public void nambahtodo(View view) {

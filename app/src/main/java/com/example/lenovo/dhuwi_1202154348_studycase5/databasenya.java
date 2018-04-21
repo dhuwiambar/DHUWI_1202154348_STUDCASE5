@@ -31,7 +31,7 @@ import java.util.ArrayList;
         //Method ketika database dibuat
         @Override
         public void onCreate(SQLiteDatabase sqLiteDatabase) {
-            data.execSQL("create table "+table_name+" (name varchar(50) primary key, description varchar(50), priority varchar(5))");
+            sqLiteDatabase.execSQL("create table "+table_name+" (name varchar(50) primary key, description varchar(50), priority varchar(5))");
         }
 
         //Method untuk memperbaharui database

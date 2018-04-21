@@ -90,7 +90,7 @@ public class HomeTodo extends AppCompatActivity {
 
     //Method untuk berpindah ke activity adding
     public void tambahin(View view) {
-        startActivity(new Intent(HomeTodo.this, AddingTodo.class));
+        startActivity(new Intent(this, AddingTodo.class));
         finish();
     }
 }
